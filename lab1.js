@@ -1,6 +1,14 @@
 var test1 = [4,2,6,23,64,1,7,32,4,32,64];
 var test2 = [5,21,345,2,36,3,75,8,29,3134,53,2535];
 var test3 = [8,8,8,8,8,8,4,5,8,8,8,8,8,34,2,8];
+var test4 = [4,7,34,6,432,754,3,2,1,0,9,6,6,6,75];
+var test5 = [19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1];
+
+var revTest1 = [4,2,6,23,64,1,7,32,4,32,64];
+var revTest2 = [5,21,345,2,36,3,75,8,29,3134,53,2535];
+var revTest3 = [8,8,8,8,8,8,4,5,8,8,8,8,8,34,2,8];
+var revTest4 = [4,7,34,6,432,754,3,2,1,0,9,6,6,6,75];
+var revTest5 = [19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1];
 
 function insertionTest(arr)
 {
@@ -65,7 +73,16 @@ function insertionSortReverse(arr)
 }
 
 
+console.log(insertionTest(test1));
+console.log(insertionTest(test2));
+console.log(insertionTest(test3));
+console.log(insertionTest(test4));
+console.log(insertionTest(test5));
 
-console.log(revInsertionTest(test2));
-console.log(revInsertionTest(test1));
+console.log(revInsertionTest(revTest1));
+console.log(revInsertionTest(revTest2));
+console.log(revInsertionTest(revTest3));
+console.log(revInsertionTest(revTest4));
+console.log(revInsertionTest(revTest5));
+
 
